@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Deploying Flask App at Vercel"
+    return "🚀 Auto-Deployed to Vercel with an push !!"
 
 if __name__ == "__main__":
     app.run()
